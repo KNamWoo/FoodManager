@@ -8,6 +8,8 @@ TagManager:
   - PickUpItem
   - Fzone
   - Warp
+  - Pass
+  - Stick
   layers:
   - Default
   - TransparentFX

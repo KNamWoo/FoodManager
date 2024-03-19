@@ -5,7 +5,6 @@ using UnityEngine;
 public class Fish_move : MonoBehaviour
 {
     public float h;
-    public float v;
 
     public float speed;
     public float currentmovespeed;
@@ -23,10 +22,12 @@ public class Fish_move : MonoBehaviour
 
     public bool posmove;
     Fishing fishing;
+    FishingManager fiman;
 
     // Start is called before the first frame update
     void Start()
     {
+        fiman = FishingManager.fishman;
         rbody = GetComponent<Rigidbody2D>();
         currentTime = System.DateTime.Now;
         //StartCoroutine(speedcool(5f));
@@ -49,15 +50,13 @@ public class Fish_move : MonoBehaviour
             leadDirection = Vector2.left;
             transform.localScale = new Vector3(direction, 1, 1);
         }
-        if(v>0||v<0){
-            //null
-        }
 
         rbody.velocity = new Vector2(h*speed, rbody.velocity.y);
 
         /*if(posmove){
             StartCoroutine(speedcool(5f));
         }*/
+
         if(Input.GetKey(leadkey)){
             rbody.AddForce(leadDirection * leadspeed, ForceMode2D.Impulse);
         }
@@ -71,23 +70,22 @@ public class Fish_move : MonoBehaviour
         }
 
         if(Fishing.fishing.degree.value >= Fishing.fishing.degree.maxValue){
-            Destroy(fish);
+            fiman.getWin.SetActive(false);
+            fiman.capWin.SetActive(false);
+            fiman.posCreFish = true;
             Fishing.fishing.degree.value = Fishing.fishing.degree.minValue;
+            Destroy(fish);
         }
     }
 
     void Awake() {
-        //rbody = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        //rbody.velocity = new Vector2(h, v)*speed*Time.deltaTime;
-
-        /*if(Input.GetKey(leadkey)){
-            rbody.AddForce(leadDirection * leadspeed);
-        }*/
+        
     }
 
     /*IEnumerator speedcool(float cool){

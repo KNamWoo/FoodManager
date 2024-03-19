@@ -33,7 +33,7 @@ public class ItemDatabase : MonoBehaviour
     {
         for(int i = 0; i<10;i++){
             GameObject go = Instantiate(FieldItemPrefab, pos1[i], Quaternion.identity);
-            go.GetComponent<GetItem>().SetItem(itemDB[Random.Range(0,droppeditemfin+1)]);//0 ~ droppeditemfin번호의 아이템까지 생성
+            go.GetComponent<GetItem>().SetItem(itemDB[Random.Range(0,droppeditemfin+1)]);//0 ~ droppeditemfin번호의 아이템까지 랜덤으로 생성
         }
 
         //nat = natHolder.GetComponentsInChildren<Nature>();

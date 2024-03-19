@@ -369,7 +369,7 @@ MonoBehaviour:
   amountobj: {fileID: 8803996380328743009}
   amount_text: {fileID: 4545060681308892016}
   item:
-    itemnum: 0
+    itemnum: -1
     itemType: 0
     itemName: 
     FieldImage: {fileID: 0}
