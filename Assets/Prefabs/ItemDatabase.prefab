@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1958267851158388275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2631177338378698864}
+  - component: {fileID: 3535465233481053074}
+  m_Layer: 0
+  m_Name: ItemDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2631177338378698864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958267851158388275}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.301834, y: 26.78026, z: 0.22484872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3535465233481053074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958267851158388275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8ec06f4f022b114da807b4bb549899b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDB:
+  - itemnum: 0
+    itemType: 0
+    itemName: Carrot
+    FieldImage: {fileID: 2950869812727453837, guid: d841447f131cbfc48912a71913291da2, type: 3}
+    InventoryImage: {fileID: 2950869812727453837, guid: d841447f131cbfc48912a71913291da2, type: 3}
+    isUsed: 0
+  - itemnum: 1
+    itemType: 0
+    itemName: Lemon
+    FieldImage: {fileID: -4588854041495768185, guid: e17d23c005b35dd44b602f1be42160ea, type: 3}
+    InventoryImage: {fileID: -4588854041495768185, guid: e17d23c005b35dd44b602f1be42160ea, type: 3}
+    isUsed: 0
+  - itemnum: 2
+    itemType: 0
+    itemName: Tomato
+    FieldImage: {fileID: -3962807554240710951, guid: dfd226d776f33d549b912e977bcbec63, type: 3}
+    InventoryImage: {fileID: -3962807554240710951, guid: dfd226d776f33d549b912e977bcbec63, type: 3}
+    isUsed: 0
+  - itemnum: 3
+    itemType: 0
+    itemName: Mushroom
+    FieldImage: {fileID: -2297234925451825094, guid: 48402e4a31e29fd419061cce1c157e2b, type: 3}
+    InventoryImage: {fileID: 357749872346554099, guid: 48402e4a31e29fd419061cce1c157e2b, type: 3}
+    isUsed: 0
+  - itemnum: 4
+    itemType: 0
+    itemName: Apple
+    FieldImage: {fileID: -8192100623602512488, guid: 0d99dcbc50f041c4c9b0aca25182a0d6, type: 3}
+    InventoryImage: {fileID: -7832214784768987486, guid: e0075287b338890469a9bd611e85a333, type: 3}
+    isUsed: 0
+  - itemnum: 5
+    itemType: 0
+    itemName: Onion
+    FieldImage: {fileID: -2311013623054592782, guid: 80f2046eed0afdd41ac45492f58075d1, type: 3}
+    InventoryImage: {fileID: 483516730252513542, guid: 80d6874a61062d8419e32c99a0e18d9d, type: 3}
+    isUsed: 0
+  - itemnum: 6
+    itemType: 0
+    itemName: Garlic
+    FieldImage: {fileID: 30750872687694009, guid: 937b76d9d64f4724db3228be3618b2e7, type: 3}
+    InventoryImage: {fileID: -4118241743421630789, guid: a6b10e60260895e47a1f968605faf1a1, type: 3}
+    isUsed: 0

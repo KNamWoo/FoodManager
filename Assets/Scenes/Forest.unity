@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 433885}
   - component: {fileID: 433886}
-  - component: {fileID: 433888}
   - component: {fileID: 433887}
   m_Layer: 0
   m_Name: apple_tree_0 (3)
@@ -234,19 +233,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &433888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433884}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 433887}
 --- !u!1 &260109957
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,7 +274,6 @@ GameObject:
   m_Component:
   - component: {fileID: 430822958}
   - component: {fileID: 430822959}
-  - component: {fileID: 430822961}
   - component: {fileID: 430822960}
   m_Layer: 0
   m_Name: mushroom (3)
@@ -393,19 +378,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &430822961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430822957}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 430822960}
 --- !u!1 &464756796
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +528,6 @@ GameObject:
   m_Component:
   - component: {fileID: 523658400}
   - component: {fileID: 523658401}
-  - component: {fileID: 523658403}
   - component: {fileID: 523658402}
   m_Layer: 0
   m_Name: apple_tree_0 (4)
@@ -661,19 +632,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &523658403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 523658399}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 523658402}
 --- !u!1 &551929063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1278,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1098367365}
   - component: {fileID: 1098367366}
-  - component: {fileID: 1098367368}
   - component: {fileID: 1098367367}
   m_Layer: 0
   m_Name: mushroom (2)
@@ -1425,19 +1382,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1098367368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1098367364}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 1098367367}
 --- !u!1 &1234996634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1392,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1234996635}
   - component: {fileID: 1234996636}
-  - component: {fileID: 1234996638}
   - component: {fileID: 1234996637}
   m_Layer: 0
   m_Name: mushroom (4)
@@ -1553,19 +1496,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1234996638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234996634}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 1234996637}
 --- !u!1 &1237801133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,7 +1537,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1303586437}
   - component: {fileID: 1303586438}
-  - component: {fileID: 1303586440}
   - component: {fileID: 1303586439}
   m_Layer: 0
   m_Name: mushroom (1)
@@ -1712,19 +1641,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1303586440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303586436}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 1303586439}
 --- !u!1 &1346050596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1650,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1346050597}
-  - component: {fileID: 1346050598}
   m_Layer: 0
   m_Name: Apple_tree
   m_TagString: Untagged
@@ -1766,34 +1681,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1346050598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346050596}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d74ac100ef8c8fe429fa2031cde28d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nat: []
-  colitemDB:
-  - colitemnum: 1
-    itemType: 0
-    itemName: Apple
-    colitemImage: {fileID: -7832214784768987486, guid: e0075287b338890469a9bd611e85a333, type: 3}
-    itemImage: {fileID: -8192100623602512488, guid: 0d99dcbc50f041c4c9b0aca25182a0d6, type: 3}
-    isUsed: 0
-  CollectItemPrefab: {fileID: 4037183784812237862, guid: 1b2a00b96edb6bc428974128e00ef844, type: 3}
-  natHolder: {fileID: 1346050597}
-  pos:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
 --- !u!1 &1386999342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,7 +1731,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1389033295}
   - component: {fileID: 1389033296}
-  - component: {fileID: 1389033298}
   - component: {fileID: 1389033297}
   m_Layer: 0
   m_Name: mushroom
@@ -1949,19 +1835,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1389033298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1389033294}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 1389033297}
 --- !u!1 &1436484044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,7 +1876,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1464025913}
   - component: {fileID: 1464025914}
-  - component: {fileID: 1464025916}
   - component: {fileID: 1464025915}
   m_Layer: 0
   m_Name: apple_tree_0 (1)
@@ -2108,19 +1980,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1464025916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464025912}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 1464025915}
 --- !u!1 &1491854355
 GameObject:
   m_ObjectHideFlags: 0
@@ -79290,7 +79149,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1494532349}
-  - component: {fileID: 1494532350}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Untagged
@@ -79322,34 +79180,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1494532350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494532348}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d74ac100ef8c8fe429fa2031cde28d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nat: []
-  colitemDB:
-  - colitemnum: 0
-    itemType: 0
-    itemName: Mushroom
-    colitemImage: {fileID: 357749872346554099, guid: 48402e4a31e29fd419061cce1c157e2b, type: 3}
-    itemImage: {fileID: -2297234925451825094, guid: 48402e4a31e29fd419061cce1c157e2b, type: 3}
-    isUsed: 0
-  CollectItemPrefab: {fileID: 4945025589204548642, guid: 022dec166c9eea3468aff6b6faee571d, type: 3}
-  natHolder: {fileID: 1494532349}
-  pos:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
 --- !u!1 &1596037314
 GameObject:
   m_ObjectHideFlags: 0
@@ -79360,7 +79190,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1596037315}
   - component: {fileID: 1596037316}
-  - component: {fileID: 1596037318}
   - component: {fileID: 1596037317}
   m_Layer: 0
   m_Name: apple_tree_0 (2)
@@ -79465,19 +79294,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1596037318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596037314}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 1596037317}
 --- !u!1 &1605557368
 GameObject:
   m_ObjectHideFlags: 0
@@ -79549,129 +79365,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1803754577
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1803754579}
-  - component: {fileID: 1803754580}
-  m_Layer: 0
-  m_Name: ItemDatabase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1803754579
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803754577}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.301834, y: 26.78026, z: 0.22484872}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1803754580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803754577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8ec06f4f022b114da807b4bb549899b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemDB:
-  - itemnum: 0
-    itemType: 0
-    itemName: Carrot
-    FieldImage: {fileID: 2950869812727453837, guid: d841447f131cbfc48912a71913291da2, type: 3}
-    InventoryImage: {fileID: 2950869812727453837, guid: d841447f131cbfc48912a71913291da2, type: 3}
-    isUsed: 0
-  - itemnum: 1
-    itemType: 0
-    itemName: Lemon
-    FieldImage: {fileID: -4588854041495768185, guid: e17d23c005b35dd44b602f1be42160ea, type: 3}
-    InventoryImage: {fileID: -4588854041495768185, guid: e17d23c005b35dd44b602f1be42160ea, type: 3}
-    isUsed: 0
-  - itemnum: 2
-    itemType: 0
-    itemName: Tomato
-    FieldImage: {fileID: -3962807554240710951, guid: dfd226d776f33d549b912e977bcbec63, type: 3}
-    InventoryImage: {fileID: -3962807554240710951, guid: dfd226d776f33d549b912e977bcbec63, type: 3}
-    isUsed: 0
-  - itemnum: 3
-    itemType: 0
-    itemName: Mushroom
-    FieldImage: {fileID: -2297234925451825094, guid: 48402e4a31e29fd419061cce1c157e2b, type: 3}
-    InventoryImage: {fileID: 357749872346554099, guid: 48402e4a31e29fd419061cce1c157e2b, type: 3}
-    isUsed: 0
-  - itemnum: 4
-    itemType: 0
-    itemName: Apple
-    FieldImage: {fileID: -8192100623602512488, guid: 0d99dcbc50f041c4c9b0aca25182a0d6, type: 3}
-    InventoryImage: {fileID: -7832214784768987486, guid: e0075287b338890469a9bd611e85a333, type: 3}
-    isUsed: 0
-  - itemnum: 5
-    itemType: 0
-    itemName: Onion
-    FieldImage: {fileID: -2311013623054592782, guid: 80f2046eed0afdd41ac45492f58075d1, type: 3}
-    InventoryImage: {fileID: 483516730252513542, guid: 80d6874a61062d8419e32c99a0e18d9d, type: 3}
-    isUsed: 0
-  - itemnum: 6
-    itemType: 0
-    itemName: Garlic
-    FieldImage: {fileID: 30750872687694009, guid: 937b76d9d64f4724db3228be3618b2e7, type: 3}
-    InventoryImage: {fileID: -4118241743421630789, guid: a6b10e60260895e47a1f968605faf1a1, type: 3}
-    isUsed: 0
-  FieldItemPrefab: {fileID: 5481925454241821610, guid: d5f8fc4ce1f3eb54095f07ebbda7f731, type: 3}
-  droppeditemfin: 2
-  allitemfin: 6
-  overlabitemamo: 5
-  pos1:
-  - {x: -30, y: 10, z: 0}
-  - {x: -21, y: 20, z: 0}
-  - {x: -8, y: 15, z: 0}
-  - {x: 0, y: -12, z: 0}
-  - {x: 5, y: -8, z: 0}
-  - {x: 8, y: -25, z: 0}
-  - {x: 15, y: 18, z: 0}
-  - {x: 15, y: -18, z: 0}
-  - {x: 25, y: 13, z: 0}
-  - {x: 30, y: 10, z: 0}
-  pos2:
-  - {x: 14.92, y: 23.58, z: 0}
-  - {x: 13.01, y: 11.37, z: 0}
-  - {x: 15.45, y: 11.18, z: 0}
-  - {x: 37.22, y: 25.91, z: 0}
-  - {x: 35.88, y: 13.35, z: 0}
-  - {x: 14.2, y: 25, z: 0}
-  - {x: 14.62, y: 12.64, z: 0}
-  - {x: 36.3, y: 27.44, z: 0}
-  - {x: 37.47, y: 14.66, z: 0}
-  - {x: 24.61, y: 0.93, z: 0}
-  - {x: -17.98, y: 32.03, z: 0}
-  - {x: -41.86, y: 2.36, z: 0}
-  - {x: -42.64, y: 28.79, z: 0}
-  - {x: -15.82, y: 6.19, z: 0}
-  - {x: -4.52, y: 6.39, z: 0}
-  - {x: -32.5, y: 22.4, z: 0}
-  - {x: -7.6, y: 23.2, z: 0}
-  - {x: -35.5, y: -4.8, z: 0}
-  - {x: -1.6, y: 30.2, z: 0}
-  - {x: 13.3, y: -4.6, z: 0}
 --- !u!1 &2080233427
 GameObject:
   m_ObjectHideFlags: 0
@@ -79682,7 +79375,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2080233428}
   - component: {fileID: 2080233429}
-  - component: {fileID: 2080233431}
   - component: {fileID: 2080233430}
   m_Layer: 0
   m_Name: apple_tree_0
@@ -79787,19 +79479,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2080233431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080233427}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f3a39a1fd8e3524bb19f4144d0d8a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rbody: {fileID: 2080233430}
 --- !u!1001 &2120614847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79862,6 +79541,86 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6231730779330882903, guid: 7d5f3be0186c39e46b33d84ff06c7756, type: 3}
   m_PrefabInstance: {fileID: 2120614847}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &159008955330768761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478500774579637748}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.301834, y: 26.78026, z: 0.22484872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &478500774579637748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159008955330768761}
+  - component: {fileID: 478500774579637749}
+  m_Layer: 0
+  m_Name: PlacingItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &478500774579637749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478500774579637748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c00d84bc7e81f45bf443c6c112f54b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FieldItemPrefab: {fileID: 5481925454241821610, guid: d5f8fc4ce1f3eb54095f07ebbda7f731, type: 3}
+  droppeditemfin: 2
+  allitemfin: 6
+  overlabitemamo: 5
+  pos1:
+  - {x: -30, y: 10, z: 0}
+  - {x: -21, y: 20, z: 0}
+  - {x: -8, y: 15, z: 0}
+  - {x: 0, y: -12, z: 0}
+  - {x: 5, y: -8, z: 0}
+  - {x: 8, y: -25, z: 0}
+  - {x: 15, y: 18, z: 0}
+  - {x: 15, y: -18, z: 0}
+  - {x: 25, y: 13, z: 0}
+  - {x: 30, y: 10, z: 0}
+  pos2:
+  - {x: 14.92, y: 23.58, z: 0}
+  - {x: 13.01, y: 11.37, z: 0}
+  - {x: 15.45, y: 11.18, z: 0}
+  - {x: 37.22, y: 25.91, z: 0}
+  - {x: 35.88, y: 13.35, z: 0}
+  - {x: 14.2, y: 25, z: 0}
+  - {x: 14.62, y: 12.64, z: 0}
+  - {x: 36.3, y: 27.44, z: 0}
+  - {x: 37.47, y: 14.66, z: 0}
+  - {x: 24.61, y: 0.93, z: 0}
+  - {x: -17.98, y: 32.03, z: 0}
+  - {x: -41.86, y: 2.36, z: 0}
+  - {x: -42.64, y: 28.79, z: 0}
+  - {x: -15.82, y: 6.19, z: 0}
+  - {x: -4.52, y: 6.39, z: 0}
+  - {x: -32.5, y: 22.4, z: 0}
+  - {x: -7.6, y: 23.2, z: 0}
+  - {x: -35.5, y: -4.8, z: 0}
+  - {x: -1.6, y: 30.2, z: 0}
+  - {x: 13.3, y: -4.6, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -79872,7 +79631,7 @@ SceneRoots:
   - {fileID: 1494532349}
   - {fileID: 1386999343}
   - {fileID: 1723078327}
-  - {fileID: 1803754579}
+  - {fileID: 159008955330768761}
   - {fileID: 1067378541}
   - {fileID: 2120614847}
   - {fileID: 764778426}

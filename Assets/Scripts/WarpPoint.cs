@@ -19,9 +19,13 @@ public class WarpPoint : MonoBehaviour
         
     }
 
+    public void LoadScene(){
+        LoadingSceneManager.LoadScene(loadingScenename, nextScene);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.tag.Equals("Player")){
-            LoadingSceneManager.LoadScene(loadingScenename, nextScene);
+            LoadScene();
         }
     }
 }

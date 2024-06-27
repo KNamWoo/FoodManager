@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <money>0</money>
+  <carrot_amo>0</carrot_amo>
+  <lemon_amo>0</lemon_amo>
+  <tomato_amo>0</tomato_amo>
+  <mushroom_amo>0</mushroom_amo>
+  <apple_amo>0</apple_amo>
+  <onion_amo>0</onion_amo>
+  <garlic_amo>0</garlic_amo>
+  <rice_amo>0</rice_amo>
+  <pepper_amo>0</pepper_amo>
+  <sugar_amo>0</sugar_amo>
+  <milk_amo>0</milk_amo>
+  <salt_amo>0</salt_amo>
+  <flour_amo>0</flour_amo>
+  <egg_amo>0</egg_amo>
+  <butter_amo>0</butter_amo>
+  <msg_amo>0</msg_amo>
+  <courgette_amo>0</courgette_amo>
+  <lettuce_amo>0</lettuce_amo>
+  <rowmeat_amo>0</rowmeat_amo>
+  <fish_amo>0</fish_amo>
+  <soda_amo>0</soda_amo>
+</SaveData>
