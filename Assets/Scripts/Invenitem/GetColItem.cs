@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
-using Unity.Android.Gradle;
+//using Unity.Android.Gradle;
 using UnityEngine;
 
 public class GetColItem : MonoBehaviour
